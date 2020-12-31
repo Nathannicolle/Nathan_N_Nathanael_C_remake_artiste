@@ -27,7 +27,6 @@
 	<?php $header_image = get_header_image(); ?>
 
 	<header id="masthead" class="site-header" role="banner" <?php if ( ! empty( $header_image ) ) { ?>style="background:url(<?php header_image(); ?>) no-repeat center center; background-size: cover; height:<?php echo get_custom_header()->height; ?>px;" <?php } ?>>
-		<img class="img_banner" url="https://static.wixstatic.com/media/f865c3_566cffaffa4d7405ff3043e013b64a09.jpg/v1/fill/w_145,h_141,al_c,lg_1,q_80/f865c3_566cffaffa4d7405ff3043e013b64a09.webp" alt="logo_demarez">
 		<hgroup>
 			<div class="site-text">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
