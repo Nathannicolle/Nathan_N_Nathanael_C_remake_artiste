@@ -25,8 +25,9 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<?php $header_image = get_header_image(); ?>
-
+	<img id="logo" src="http://62.210.83.115:11214/wordpress/wp-content/uploads/2020/12/logo_demarez-2.jpg" alt"logo_christophe_demarez"/>
 	<header id="masthead" class="site-header" role="banner" <?php if ( ! empty( $header_image ) ) { ?>style="background:url(<?php header_image(); ?>) no-repeat center center; background-size: cover; height:<?php echo get_custom_header()->height; ?>px;" <?php } ?>>
+		
 		<hgroup>
 			<div class="site-text">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
