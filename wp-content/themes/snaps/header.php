@@ -29,7 +29,7 @@
 	<header id="masthead" class="site-header" role="banner" <?php if ( ! empty( $header_image ) ) { ?>style="background:url(<?php header_image(); ?>) no-repeat center center; background-size: cover; height:<?php echo get_custom_header()->height; ?>px;" <?php } ?>>
 		<hgroup>
 			<div class="site-text">
-				<img src="https://cdn.shopify.com/shopifycloud/hatchful-web/assets/c3a241ae6d1e03513dfed6f5061f4a4b.png">
+				<img src="images/logo_demarez.jpg">
 				<!--<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>-->
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</div>
